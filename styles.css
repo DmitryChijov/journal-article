@@ -1,0 +1,35 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+}
+
+/* Це встановить розмір шрифту за замовчуванням для вебсторінки
+ на 10 пікселів ( в браузері на 16 пікселів).
+Це полегшить вам роботу з одиницями rem пізніше,
+ оскільки 2rem буде 20 пікселів. */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Baskervville, serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+}
+
+h1 {
+    font-family: Anton, sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Raleway, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+}
+
+
+
