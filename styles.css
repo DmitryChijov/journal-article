@@ -129,11 +129,11 @@ hr {
 }
  /* добавляем кавычки к цитате */
 .quote::before {
-    content: '" ';
+    content: '"';
 }
 
 .quote::after {
-    content: ' "';
+    content: '"';
 }
 
 /* третья секция */
